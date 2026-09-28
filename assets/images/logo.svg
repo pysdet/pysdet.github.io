@@ -5,76 +5,57 @@
 
   <!-- Test-tube liquid -->
   <path
-    d="M138 202
-       C173 185 204 193 238 202
-       C274 212 304 211 340 199
-       C353 195 365 195 374 202
-       L374 455
-       L138 455 Z"
+    d="M164 202
+      C190 188 215 194 238 201
+      C274 211 303 211 328 201
+      C336 198 343 199 348 202
+      L348 390
+      C348 424 326 443 256 443
+      C186 443 164 424 164 390 Z"
     fill="#2b8d5c"/>
 
-  <!-- Test-tube outer sides -->
+  <!-- Test-tube outer body -->
   <path
-    d="M124 121 L124 455
-       M388 121 L388 455"
+    d="M150 121
+      L150 390
+      C150 435 185 455 256 455
+      C327 455 362 435 362 390
+      L362 121"
     fill="none"
     stroke="#104d2c"
     stroke-width="12"
-    stroke-linecap="round"/>
+    stroke-linecap="round"
+    stroke-linejoin="round"/>
 
   <!-- Test-tube rim -->
   <path
-    d="M106 106
-       C106 87 174 81 256 81
-       C338 81 406 87 406 106
-       C406 125 338 132 256 132
-       C174 132 106 125 106 106 Z"
+    d="M132 106
+      C132 87 188 81 256 81
+      C324 81 380 87 380 106
+      C380 125 324 132 256 132
+      C188 132 132 125 132 106 Z"
     fill="none"
     stroke="#104d2c"
     stroke-width="12"/>
 
-  <!-- Bubbles -->
-  <circle cx="276" cy="46" r="14" fill="#7fc843"/>
-  <circle cx="276" cy="46" r="6" fill="#2b8d5c"/>
+  <!-- Bubbles coming out of the test tube -->
+  <circle cx="225" cy="35" r="9" fill="#7fc843"/>
+  <circle cx="225" cy="35" r="4" fill="#2b8d5c"/>
 
-  <circle cx="306" cy="172" r="15" fill="#7fc843"/>
-  <circle cx="306" cy="172" r="6" fill="#2b8d5c"/>
+  <circle cx="326" cy="58" r="11" fill="#7fc843"/>
+  <circle cx="326" cy="58" r="4" fill="#2b8d5c"/>
 
-  <circle cx="217" cy="243" r="16" fill="#7fc843"/>
-  <circle cx="217" cy="243" r="6" fill="#2b8d5c"/>
+  <circle cx="280" cy="174" r="11" fill="#7fc843"/>
+  <circle cx="280" cy="174" r="4" fill="#2b8d5c"/>
 
-  <circle cx="247" cy="418" r="16" fill="#7fc843"/>
-  <circle cx="247" cy="418" r="6" fill="#2b8d5c"/>
+  <!-- Bubbles inside the liquid -->
+  <circle cx="215" cy="247" r="15" fill="#7fc843"/>
+  <circle cx="215" cy="247" r="6" fill="#2b8d5c"/>
 
-  <!-- Glasses bridge and side arms -->
-  <path
-    d="M78 331 H105
-       M407 331 H434
-       M222 322
-       C232 304 248 299 256 299
-       C264 299 280 304 290 322"
-    fill="none"
-    stroke="#104d2c"
-    stroke-width="11"
-    stroke-linecap="round"
-    stroke-linejoin="round"/>
+  <circle cx="322" cy="285" r="12" fill="#7fc843"/>
+  <circle cx="322" cy="285" r="5" fill="#2b8d5c"/>
 
-  <!-- Left lens -->
-  <circle
-    cx="166"
-    cy="334"
-    r="65"
-    fill="#f8faf7"
-    stroke="#104d2c"
-    stroke-width="11"/>
-
-  <!-- Right lens -->
-  <circle
-    cx="346"
-    cy="334"
-    r="65"
-    fill="#f8faf7"
-    stroke="#104d2c"
-    stroke-width="11"/>
+  <circle cx="256" cy="370" r="14" fill="#7fc843"/>
+  <circle cx="256" cy="370" r="5" fill="#2b8d5c"/>
 
 </svg>

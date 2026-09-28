@@ -3,6 +3,9 @@
      height="512"
      viewBox="0 0 512 512">
 
+     <!-- Background -->
+  <rect width="512" height="512" fill="#f8faf7"/>
+
   <!-- Test-tube liquid -->
   <path
     d="M164 202
