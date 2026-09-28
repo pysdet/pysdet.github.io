@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="512"
+     height="512"
+     viewBox="0 0 512 512">
+
+  <!-- Test-tube liquid -->
+  <path
+    d="M138 202
+       C173 185 204 193 238 202
+       C274 212 304 211 340 199
+       C353 195 365 195 374 202
+       L374 455
+       L138 455 Z"
+    fill="#2b8d5c"/>
+
+  <!-- Test-tube outer sides -->
+  <path
+    d="M124 121 L124 455
+       M388 121 L388 455"
+    fill="none"
+    stroke="#104d2c"
+    stroke-width="12"
+    stroke-linecap="round"/>
+
+  <!-- Test-tube rim -->
+  <path
+    d="M106 106
+       C106 87 174 81 256 81
+       C338 81 406 87 406 106
+       C406 125 338 132 256 132
+       C174 132 106 125 106 106 Z"
+    fill="none"
+    stroke="#104d2c"
+    stroke-width="12"/>
+
+  <!-- Bubbles -->
+  <circle cx="276" cy="46" r="14" fill="#7fc843"/>
+  <circle cx="276" cy="46" r="6" fill="#2b8d5c"/>
+
+  <circle cx="306" cy="172" r="15" fill="#7fc843"/>
+  <circle cx="306" cy="172" r="6" fill="#2b8d5c"/>
+
+  <circle cx="217" cy="243" r="16" fill="#7fc843"/>
+  <circle cx="217" cy="243" r="6" fill="#2b8d5c"/>
+
+  <circle cx="247" cy="418" r="16" fill="#7fc843"/>
+  <circle cx="247" cy="418" r="6" fill="#2b8d5c"/>
+
+  <!-- Glasses bridge and side arms -->
+  <path
+    d="M78 331 H105
+       M407 331 H434
+       M222 322
+       C232 304 248 299 256 299
+       C264 299 280 304 290 322"
+    fill="none"
+    stroke="#104d2c"
+    stroke-width="11"
+    stroke-linecap="round"
+    stroke-linejoin="round"/>
+
+  <!-- Left lens -->
+  <circle
+    cx="166"
+    cy="334"
+    r="65"
+    fill="#f8faf7"
+    stroke="#104d2c"
+    stroke-width="11"/>
+
+  <!-- Right lens -->
+  <circle
+    cx="346"
+    cy="334"
+    r="65"
+    fill="#f8faf7"
+    stroke="#104d2c"
+    stroke-width="11"/>
+
+</svg>
