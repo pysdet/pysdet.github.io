@@ -69,15 +69,6 @@ body {
   max-width: 620px;
 }
 
-.eyebrow {
-  margin: 0 0 20px;
-  color: var(--green);
-  font-size: 0.8rem;
-  font-weight: 800;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-}
-
 h1 {
   margin: 0;
   font-size: clamp(2.8rem, 7vw, 5.4rem);
@@ -129,5 +120,52 @@ footer {
 
   h1 {
     font-size: 2.8rem;
+  }
+}
+
+.intro {
+  margin: 24px 0 0;
+  line-height: 1.6;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  color: var(--dark);
+  border: 1px solid var(--green);
+  border-radius: 999px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.social-icon {
+  display: block;
+  width: 18px;
+  height: 18px;
+}
+
+.links a:hover,
+.links a:focus-visible {
+  color: var(--light);
+  background: var(--dark);
+}
+
+.links a:hover .social-icon,
+.links a:focus-visible .social-icon {
+  filter: brightness(0) invert(1);
+}
+
+@media (max-width: 760px) {
+  .links {
+    justify-content: center;
   }
 }
